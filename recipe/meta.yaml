@@ -1,5 +1,5 @@
 {% set name = "aisuite" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aisuite-{{ version }}.tar.gz
-  sha256: 3152ee91a0dc016453e41ef138a18e1f4964af1be242561d091301c338f2ff49
+  sha256: d9d7dfd97b904d617ee74a2d654905458886499e5e7cb8d81f5be541735abaa8
 
 build:
   noarch: python
